@@ -12,7 +12,7 @@ variableNum1 = 1
 variableNum2 = variableNum1 + 1
 
 variableNum3 = 0
-variableNum3 += 1
+variableNum3 += 3
 
 print(variableNum1)
 print(variableNum2)
