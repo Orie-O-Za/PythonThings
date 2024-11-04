@@ -17,3 +17,10 @@ variableNum3 += 3
 print(variableNum1)
 print(variableNum2)
 print(variableNum3)
+
+#bitwise - * / * ~ << >>
+
+40
+
+10 >> 2
+
