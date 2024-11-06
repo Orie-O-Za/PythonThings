@@ -26,3 +26,9 @@ print("  ")
 print(coordinates[0]) #To get the first coordinate
 print(coordinates[1]) #To get the second coordinate
 print("  ")
+
+#Data Structures
+#list - sequence ot mutable values
+#tuple - sequence ot immutable values
+#set - collection of unique values
+#dictionary - collection of key-value pairs
