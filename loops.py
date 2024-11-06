@@ -15,7 +15,7 @@ for name in names:
     print(name)
 
 # A character example to print the letters in a name one element at a time
-print("Printing one letter of a name one character at a time")
+print("Printing one letter of a name (string) one character at a time")
 name1 = "Orie"
 for character in name1:
     print(character)
