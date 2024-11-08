@@ -18,9 +18,9 @@ print("  ")  # Spacing for clarity
 
 travelers = ["Orie", "Tumzie", "BieKay", "Moolzar"]
 for person in travelers:
-    loaded = flight.add_passenger(person)
+ #   loaded = flight.add_passenger(person)                      #a less optimal line of code
     
-    if loaded:
+    if flight.add_passenger(person):                            #a way to optimize the code Example
         print(f"boarded {person} to flight successfully.")
     else:
         print(f"No available seats for {person}, please try the next flight.")
