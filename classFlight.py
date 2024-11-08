@@ -14,10 +14,14 @@ class Flight():
 
 flight = Flight(3)  
 
+print("  ")  # Spacing for clarity
+
 travelers = ["Orie", "Tumzie", "BieKay", "Moolzar"]
 for person in travelers:
     loaded = flight.add_passenger(person)
+    
     if loaded:
         print(f"boarded {person} to flight successfully.")
     else:
         print(f"No available seats for {person}, please try the next flight.")
+print("  ")  # Spacing for clarity
