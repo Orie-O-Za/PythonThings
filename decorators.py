@@ -5,7 +5,7 @@ def announce(f):
         print("About to run the function...")
 
         f()
-        print("The functin ran has completed!")
+        print("The functin run has completed!")
         print("  ")
     return wrapper
 
