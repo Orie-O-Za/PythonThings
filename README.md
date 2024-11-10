@@ -1,1 +1,1 @@
-Basic Python program for skills development 
+Basic Python programs for skills development 
