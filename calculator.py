@@ -9,6 +9,9 @@ while True:
     print("4 - Division")
     print("Press the Q Key to Close The Calculator")
 
+    if choice == 'q' or 'Q':
+        break
+
     choice = input("Enter your option : ")
 
     num1 = float(input("Enter the 1st number:  "))
