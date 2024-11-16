@@ -12,8 +12,7 @@ def multiplication(num1,num2):
 
 def divisioni(num1,num2):
     if num2 == 0.0:
-    print("One Cannot Divide by Zero")
-
-else:
-    result = num1 / num2
+        print("One Cannot Divide by Zero")
+    else:
+        result = num1 / num2
     print("{0} / {1} = {2}".format(num1,num2,result))
