@@ -20,8 +20,7 @@ while True:
         subtration(num1,num2)
     elif choice == '3':
         multiplication(num1,num2)
-    elif
-        choice == '4':
+    elif choice == '4':
         divisioni(num1,num2)
     else:
         print("Invalid Choice")
