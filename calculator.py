@@ -1,4 +1,4 @@
-from functions import *
+from function import *
 
 while True:
     print("what do you want to do?")
@@ -17,11 +17,11 @@ while True:
     if choice == '1':
         addition(num1,num2)
     elif choice == '2':
-        subtraction(num1,num2)
+        subtration(num1,num2)
     elif choice == '3':
         multiplication(num1,num2)
     elif
         choice == '4':
-        division(num1,num2)
+        divisioni(num1,num2)
     else:
         print("Invalid Choice")
