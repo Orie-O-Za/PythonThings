@@ -13,4 +13,9 @@ comment
 .
 """
 print(" ")
-#
+print("Another way to use comments line by line")
+comment = """ACB
+123
+Small, Smaller, Smallest
+"""
+print(comment)
