@@ -1,5 +1,4 @@
 questions = [
-
 {
     "prompt": "What is the capital of France?",
     "options": ["A. Paris", "B. London", "C. Berlin", "D. Madrid"],
@@ -32,11 +31,5 @@ questions = [
 }
 ]
 
-def start_quiz(questions):
-    score = 0
-    for questions in questions:
-        print(questions["prompt"])
-        for options in questions ["options"]
-            print(options)
 
-start_quiz(questions)
+print{questions}
