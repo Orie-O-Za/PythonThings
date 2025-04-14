@@ -1,12 +1,17 @@
-questions = []
+questions = [
+    {
+    "prompt": "What is the capital of France?",
+    "option": ["A. Paris", "B. London", "C. Berlin", "D. Madrid"],
+    "answer": "A",      
+    },
+    {
+    "prompt": "What is the largest planet in our solar system?",
+    "option": ["A. Earth", "B. Jupiter", "C. Saturn", "D. Neptune"],
+    "answer": "B",
+    },
 
-def start_quiz(questions):
-    score = 0
-    for question in questions:
-        print(questions["prompt"])
-        for options in questions ["options"]
-            print(options)
-        answer = input("Enter your answer (A, B, C, or D): ").upper()
-        if answer == question["answer"]:
-            print("Correct!")
-            score += 1
+
+]
+
+
+print(questions[0]["prompt"])
